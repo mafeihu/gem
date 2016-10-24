@@ -15,7 +15,7 @@ class MembersController < ApplicationController
   # GET /members/new
   def new
     @member = Member.new
-    binding.remote_pry
+    #binding.remote_pry
   end
 
   # GET /members/1/edit
@@ -26,7 +26,7 @@ class MembersController < ApplicationController
   # POST /members.json
   def create
     @member = Member.new(member_params)
-    binding.pry 
+    #binding.pry 
 
     respond_to do |format|
       if @member.save
