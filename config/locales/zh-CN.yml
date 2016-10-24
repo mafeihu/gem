@@ -1,0 +1,9 @@
+zh-CN:
+  activerecord:
+    models:
+      member:  "成员"
+    attributes:
+      member:
+        name: 名字
+        telphone: 手机号码
+        age: 年龄
