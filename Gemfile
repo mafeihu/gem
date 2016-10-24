@@ -45,6 +45,8 @@ group :development do
   gem 'annotate', '~> 2.7', '>= 2.7.1'
   gem 'seedbank', '~> 0.4.0'
   gem 'foreman', '~> 0.82.0'
+  gem 'pry-rails', '~> 0.3.4'
+  gem 'pry-remote', '~> 0.1.8'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
