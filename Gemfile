@@ -39,6 +39,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5'
   gem 'guard-rspec', '~> 4.7'
   gem 'fuubar', '~> 2.2'
+  gem 'shoulda-matchers', '~> 3.1'
 
 end
 
@@ -51,6 +52,7 @@ group :development do
   gem 'foreman', '~> 0.82.0'
   gem 'pry-rails', '~> 0.3.4'
   gem 'pry-remote', '~> 0.1.8'
+  gem 'rack-livereload', '~> 0.3.16'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
